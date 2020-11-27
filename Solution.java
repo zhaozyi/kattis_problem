@@ -6,6 +6,7 @@ public class Solution {
         int a = input.nextInt();
         int b = input.nextInt();
         System.out.println(flip(a) < flip(b) ? flip(b) : flip(a));
+        input.close();
     }
 
     private static int flip(int n) {

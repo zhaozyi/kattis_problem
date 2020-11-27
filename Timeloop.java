@@ -6,5 +6,6 @@ public class Timeloop {
         int n = input.nextInt();
         for (int i = 1; i <= n; ++i)
             System.out.println(i + " Abracadabra");
+        input.close();
     }
 }
